@@ -3,11 +3,13 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Simon Evertsson
 ==========================
 
-The source for this page is in `content/index.md`.
+## Hej!
 
-This is a sample home page written in markdown with some frontmatter defined.
-
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Jag heter Simon Evertsson och kommer nog tillsvidare bara saxa in min presentation av mig själv 
+från me-sidan från Python-kursen. Nu får detta vara ett första test dock. Här kommer en bild på mig
+och min ena hund Doglas.
+ 
+![bild på mig](image/me.jpg "me")
