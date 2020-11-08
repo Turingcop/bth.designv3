@@ -1,8 +1,8 @@
 ---
 Logo: image/cthulhulogo.png
-Tagline: My portfolio.
+Tagline: Zero is coming in.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/Turingcop/bth.designv3.git
       icon: github
 ---

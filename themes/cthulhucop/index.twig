@@ -26,6 +26,8 @@
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+    <div class="wrap-all">
+        <div class="wrap-cont">
     <div class="header" role="banner">
         <div class="container">
             <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
@@ -57,7 +59,7 @@
                 </div>
             </div>
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/tree2.jpg?sc=banner1&a=40,0,0,0">
+              <img class="flash-img" src="{{ base_url }}/image/cthulhu.jpg?sc=banner1&a=40,0,0,0">
             </div>
         </div>
     </div>
@@ -66,6 +68,8 @@
             {{ content }}
         </div>
     </div>
+</div> <!--wrap-cont-->
+</div> <!--wrap-all-->
     <div class="footer">
         <div class="container">
             <div class="social">
@@ -78,7 +82,9 @@
                 {% endfor %}
             </div>
             <p>
-                En footer med lite text.
+                "Level-1 or world space is an anthropomorphically scaled, predominantly vision-configured, massively multi-slotted reality system that is obsolescing very rapidly.
+                Garbage time is running out.
+                Can what is playing you make it to level-2?" 
             </p>
         </div>
     </div>
