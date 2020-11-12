@@ -1,3 +1,16 @@
-$base-color: #c6538c; // light pink
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@400;500&family=Open+Sans&display=swap');
 
-@import '../../shared/scss/base';
+@import 'variables';
+@import 'base';
+@import 'footer';
+@import 'formlisttab';
+@import 'header';
+@import 'smalldev';
+@import 'type';
+@import 'utilities';

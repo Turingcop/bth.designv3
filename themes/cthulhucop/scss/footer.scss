@@ -1,0 +1,26 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    background: #171717;
+    color: #c0c0c0;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #ddd;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+    padding: 3em 0;
+}
+
+.footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}

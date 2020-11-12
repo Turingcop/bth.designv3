@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    background-image: url('#{$images}horror.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/*** PAPER STACK CONTAINER ***/
+.wrap-cont {
+    background-color: rgba(255, 255, 255);
+    // background-image: url('#{$images}contback.png');
+    background-size: contain;
+    width: 60%;
+    margin: 0 auto;
+    // box-shadow: inset 0 0 20px 0 $print-red-fade;
+    // box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    // position: relative;
+}
+
+// .wrap-cont::before, .wrap-cont::after {
+//     content: "";
+//     height: 100%;
+//     position: absolute;
+//     width: 100%;
+//     z-index: -1;
+//   }
+//   .wrap-cont::before {
+//     background: #fafafa;
+//     box-shadow: 0 0 8px rgba(0,0,0,0.2);
+//     left: -2px;
+//     top: 4px;
+//     transform: rotate(-1deg);
+//   }
+//   .wrap-cont::after {
+//     background: #f6f6f6;
+//     box-shadow: 0 0 3px rgba(0,0,0,0.2);
+//     right: -1px;
+//     top: 1px;
+//     transform: rotate(0.7deg);
+//   }
+
+/*** END PAPER STACK ***/
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    padding: 0 0 2em;
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: 72em;
+}
+
+/* very ugly overflow fix, avoid this whenever possible! */
+
+.main .container {
+    overflow-x: auto;
+}
+
+.underscore {
+    font-size: 2.7em;
+    padding-top: 1em;
+    margin-top: 1em;
+    text-align: center;
+    color: $print-red-fade;
+    border-top: 1px solid $print-red-fade;
+}

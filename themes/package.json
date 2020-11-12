@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map --watch",
     "style": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map",
     "style-min": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed"
   },
@@ -17,5 +18,8 @@
     "sass": "^1.29.0",
     "stylelint": "^13.7.2",
     "stylelint-config-sass-guidelines": "^7.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
   }
 }
