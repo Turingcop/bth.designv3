@@ -5,9 +5,19 @@
         padding: 2em 0 1em;
     }
 
+    .wrap-cont {
+        width: 90%;    
+    }
+
+    .container {
+        width: 90%;
+    }
+
     .title,
     .logo {
         padding: 2em 1.5em 2em 0;
+        float: unset;
+        width: unset;
     }
 
     .logo {

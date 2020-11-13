@@ -6512,7 +6512,6 @@ body {
   background-size: contain;
   width: 60%;
   margin: 0 auto;
-  min-height: 1200px;
 }
 
 .main {
@@ -6522,10 +6521,6 @@ body {
 .header,
 .footer {
   flex: 0 0 auto;
-}
-
-.main {
-  padding: 0 0 2em;
 }
 
 .container {
@@ -6543,9 +6538,12 @@ body {
   overflow-x: auto;
 }
 
+.main-cont {
+  min-height: 400px;
+}
+
 .underscore {
   padding-top: 3em;
-  padding-bottom: 3em;
   margin-top: 3em;
   border-top: 1px solid #bb190ac7;
   text-align: center;
@@ -6559,8 +6557,12 @@ body {
 }
 
 .underscore p {
-  color: black;
+  color: #000;
   text-align: justify;
+}
+
+.underscore p:last-child {
+  margin-bottom: 3em;
 }
 
 .underscore p::first-letter {
@@ -6811,11 +6813,7 @@ button::-moz-focus-inner {
 }
 
 /*** BASIC LAYOUT: HEADER ***/
-/* .header {
-    background: #fff;
-} */
 .title {
-  float: left;
   margin: 0;
   width: 35%;
 }
@@ -6853,9 +6851,6 @@ button::-moz-focus-inner {
   min-width: 4.8em;
 }
 
-/* .logo+.title h1 {
-    margin: 0.8rem 0;
-} */
 .logo + .title.tagline h1 {
   margin: 0;
 }
@@ -6879,15 +6874,19 @@ button::-moz-focus-inner {
   font-weight: bold;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
-.nav .active a, .nav a:hover, .nav-toggle:hover {
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
   color: #3b440d;
 }
 
-.nav a:hover, .nav-toggle:hover {
+.nav a:hover,
+.nav-toggle:hover {
   color: #3b440d;
   text-decoration: underline;
 }
@@ -6909,63 +6908,6 @@ button::-moz-focus-inner {
   object-fit: cover;
 }
 
-/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
-@media (max-width: 767px) {
-  .main {
-    padding: 2em 0 1em;
-  }
-
-  .title, .logo {
-    padding: 2em 1.5em 2em 0;
-  }
-
-  .logo {
-    height: 8.8em;
-  }
-
-  .nav {
-    clear: both;
-    padding: 0;
-  }
-
-  .nav ul {
-    padding-bottom: 1em;
-  }
-
-  .nav ul li {
-    display: block;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .js .nav-toggle > * {
-    vertical-align: middle;
-  }
-
-  .footer p {
-    padding: 1em 0;
-  }
-
-  .footer .social {
-    padding: 0.5em 0 0.5em 1em;
-  }
-}
 /*** TYPOGRAPHY ***/
 html {
   font-size: 16px;
@@ -6981,13 +6923,27 @@ body {
   color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
+p,
+hr,
+table,
+.table-responsive,
+ol,
+ul,
+dl,
+dd,
+pre,
+blockquote,
+fieldset {
   margin-bottom: 1em;
   font-family: "Montserrat";
 }
@@ -7002,12 +6958,17 @@ a:hover {
   color: #444;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
   font-family: "Arvo";
   font-weight: bold;
-  color: #BB180A;
+  color: #bb180a;
 }
 
 h1 {
@@ -7103,6 +7064,74 @@ abbr {
   width: 100%;
 }
 
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+@media (max-width: 767px) {
+  .main {
+    padding: 2em 0 1em;
+  }
+
+  .wrap-cont {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .title,
+.logo {
+    padding: 2em 1.5em 2em 0;
+    float: unset;
+    width: unset;
+  }
+
+  .logo {
+    height: 8.8em;
+  }
+
+  .nav {
+    clear: both;
+    padding: 0;
+  }
+
+  .nav ul {
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .js .nav-toggle > * {
+    vertical-align: middle;
+  }
+
+  .footer p {
+    padding: 1em 0;
+  }
+
+  .footer .social {
+    padding: 0.5em 0 0.5em 1em;
+  }
+}
 @media (max-width: 767px) {
   .image.xsmall {
     width: 60%;
@@ -7112,11 +7141,13 @@ abbr {
     width: 80%;
   }
 
-  .image.large, .image.xlarge {
+  .image.large,
+.image.xlarge {
     width: 100%;
   }
 
-  .image.float-left, .image.float-right {
+  .image.float-left,
+.image.float-right {
     float: none;
     margin: 0 auto;
   }

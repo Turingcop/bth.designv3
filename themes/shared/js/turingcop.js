@@ -28,7 +28,7 @@
     `<p class="melt">Nanospasm." 
     </p><a class="melt" href="http://www.ccru.net/swarm1/1_melt.htm" target="_blank"><i class="fas fa-book"></i></a>`];
 
-    let allContent = document.getElementById('wrap-cont');
+    let allContent = document.getElementById('main-cont');
     let iContent = document.getElementById('underscore');
     let rotations = 0;
     let rotateval = 360;
@@ -46,7 +46,7 @@
                 rotateval = 360;
                 knight.style.transform = `rotate(0deg)`;
                 knight.style.transition = "0s";
-                allContent.style.transform = "rotate(0deg";
+                allContent.style.transform = "rotate(0deg)";
             }
             });
 
