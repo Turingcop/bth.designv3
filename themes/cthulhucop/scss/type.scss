@@ -14,13 +14,27 @@ body {
     color: #444;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
+p,
+hr,
+table,
+.table-responsive,
+ol,
+ul,
+dl,
+dd,
+pre,
+blockquote,
+fieldset {
     margin-bottom: 1em;
     font-family: 'Montserrat';
 }
@@ -35,12 +49,17 @@ a:hover {
     color: #444;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
     font-family: 'Arvo';
     font-weight: bold;
-    color: #BB180A;
+    color: $print-red;
 }
 
 h1 {

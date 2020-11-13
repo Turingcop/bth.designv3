@@ -1,6 +1,6 @@
 ---
 Logo: image/stampmask.png
-Tagline: Modernity is a blast. 
+Tagline: Modernity: it's a blast. 
 Social:
     - title: Länk till sidans github repo.
       url: https://github.com/Turingcop/bth.designv3.git

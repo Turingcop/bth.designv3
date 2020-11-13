@@ -6492,32 +6492,29 @@ img {
   max-width: 100%;
 }
 
-html {
-  background-image: url("../../../assets/img/horror.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 html,
 body {
   height: 100%;
 }
 
 body {
+  background-image: url("../../../assets/img/horror.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 20px;
+}
+
+.wrap-cont {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-}
-
-/*** PAPER STACK CONTAINER ***/
-.wrap-cont {
   background-color: white;
   background-size: contain;
   width: 60%;
   margin: 0 auto;
+  min-height: 1200px;
 }
 
-/*** END PAPER STACK ***/
 .main {
   flex: 1 0 auto;
 }
@@ -6547,12 +6544,28 @@ body {
 }
 
 .underscore {
-  font-size: 2.7em;
-  padding-top: 1em;
-  margin-top: 1em;
-  text-align: center;
-  color: #bb190ac7;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-top: 3em;
   border-top: 1px solid #bb190ac7;
+  text-align: center;
+}
+
+.underscore i,
+.underscore a i {
+  font-size: 3em;
+  margin-bottom: 1em;
+  color: #bb190ac7;
+}
+
+.underscore p {
+  color: black;
+  text-align: justify;
+}
+
+.underscore p::first-letter {
+  color: #bb180a;
+  font-weight: bolder;
 }
 
 /*** BASIC LAYOUT: FOOTER ***/

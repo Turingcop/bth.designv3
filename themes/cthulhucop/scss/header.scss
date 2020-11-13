@@ -1,9 +1,5 @@
 /*** BASIC LAYOUT: HEADER ***/
 
-/* .header {
-    background: #fff;
-} */
-
 .title {
     float: left;
     margin: 0;
@@ -43,10 +39,6 @@
     min-width: 4.8em;
 }
 
-/* .logo+.title h1 {
-    margin: 0.8rem 0;
-} */
-
 .logo+.title.tagline h1 {
     margin: 0;
 }
@@ -70,15 +62,19 @@
     font-weight: bold;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
     color: #333;
 }
 
-.nav .active a, .nav a:hover, .nav-toggle:hover {
+.nav .active a,
+.nav a:hover,
+.nav-toggle:hover {
     color: #3b440d;
 }
 
-.nav a:hover, .nav-toggle:hover {
+.nav a:hover,
+.nav-toggle:hover {
     color: #3b440d;
     text-decoration: underline;
 }
