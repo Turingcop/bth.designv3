@@ -1,10 +1,19 @@
 ---
 Title: Kmom01
 Description: Part 1
+Template: kmom
 ---
 
 Kursmoment 1
 ==================
+
+* [kmom01](kmom01)
+* [kmom02](kmom02)
+* [kmom03](kmom03)
+* [kmom04](kmom04)
+* [kmom05](kmom05)
+* [kmom06](kmom06)
+* [kmom10](kmom10)
 
 Jag kan inte direkt påstå att jag har någon erfarenhet av ramverk eller CMS:er, bortsett från att ha satt upp en eller två sidor med wordpress i ett tidigare liv. Så det mesta här 
 känns ändå väldigt nytt. 

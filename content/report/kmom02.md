@@ -1,10 +1,19 @@
 ---
 Title: Kmom01
 Description: Part 1
+Template: kmom
 ---
 
 Kursmoment 2
 ==================
+
+* [kmom01](kmom01)
+* [kmom02](kmom02)
+* [kmom03](kmom03)
+* [kmom04](kmom04)
+* [kmom05](kmom05)
+* [kmom06](kmom06)
+* [kmom10](kmom10)
     
 Det var ett väldigt trevligt kursmoment för att vi fick lära oss grunderna i SASS som jag lite 
 halvt omedvetet har känt att jag saknat tidigare och som jag nog skulle säga är min stora TIL denna vecka. Att kunna dela upp sin CSS i moduler känns otroligt smidigt. Det är också väldigt smidigt att kunna använda variabler, som är mycket lättare att hålla i huvudet än t ex en sökväg eller en hexadecimal färg.

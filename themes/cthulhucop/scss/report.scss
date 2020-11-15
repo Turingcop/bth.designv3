@@ -1,0 +1,49 @@
+.report-grid {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-rows: min-content;
+}
+
+.kmom-box {
+    width: 100%;
+    text-align: center;
+}
+
+.kmom-box h4 {
+    background-color: $print-red-fade;
+    width: 100%;
+    padding: 10px 0 10px;
+    color: white;    
+}
+
+.report-grid h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-grid {
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-column-gap: 1em;
+}
+
+.kmom-grid h1 {
+    grid-row: span;
+    grid-column: 2;
+    text-align: center;
+}
+
+.kmom-grid p {
+    grid-column: 2;
+}
+
+.kmom-grid ul {
+    grid-column: 1;
+    grid-row: span 2;
+    list-style: none;
+    padding-left: 0;
+}
