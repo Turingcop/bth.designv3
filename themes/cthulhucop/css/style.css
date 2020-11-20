@@ -6584,13 +6584,15 @@ body {
 .kmom-box h4 {
   background-color: #bb190ac7;
   width: 100%;
-  padding: 10px 0 10px;
-  color: white;
+  padding: 10px 0;
+  color: #fff;
 }
 
 .report-grid h1 {
   grid-column: span 3;
   justify-self: center;
+  align-self: center;
+  max-width: 100%;
 }
 
 .kmom-box.project {
@@ -6599,12 +6601,11 @@ body {
 
 .kmom-grid {
   display: grid;
-  grid-template-columns: 15% 80%;
+  grid-template-columns: calc(100%/6 - 0.5em) calc(100%/6 * 5 - 0.5em);
   grid-column-gap: 1em;
 }
 
 .kmom-grid h1 {
-  grid-row: span;
   grid-column: 2;
   text-align: center;
 }
@@ -6615,7 +6616,7 @@ body {
 
 .kmom-grid ul {
   grid-column: 1;
-  grid-row: span 2;
+  grid-row: 2/span 2;
   list-style: none;
   padding-left: 0;
 }
@@ -7200,5 +7201,21 @@ abbr {
 .image.float-right {
     float: none;
     margin: 0 auto;
+  }
+
+  .kmom-grid,
+.report-grid {
+    grid-template-columns: 100%;
+  }
+
+  .kmom-grid ul {
+    display: none;
+  }
+
+  .kmom-grid h1,
+.kmom-grid p,
+.report-grid h1,
+.kmom-box.project {
+    grid-column: 1;
   }
 }

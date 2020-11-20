@@ -52,28 +52,33 @@
 
     } else if (fileName == "Home") {
         let spider = document.getElementById('fas fa-spider');
+        let flipper = 0;
         spider.addEventListener('click', function(){
-            if (document.body.style.backgroundImage == "url(\"image/reweb.jpg\")") {
-                switchBack(spider);
-            } else {
-                switchImage(spider);
+            flipper++;
+            switch (document.body.style.backgroundImage) {
+                case (""):
+                    switchBackgroundImage(spider, "reweb", flipper);
+                    break;
+                case ("url(\"image/horror.jpg\")"):
+                    switchBackgroundImage(spider, "reweb", flipper);
+                    break;
+                case ("url(\"image/reweb.jpg\")"):
+                    switchBackgroundImage(spider, "horror", flipper);
+                    break;
             }
             });
     }
 
-    function switchImage(spider) {
-        document.body.style.backgroundImage = "url('image/reweb.jpg')";
-        document.body.style.backgroundSize = "115%";
-        spider.style.transform = "scaleX(-1)";
-        spider.style.transition = "0.3s";
-    };
-
-    function switchBack(spider) {
-        document.body.style.backgroundImage = "url('image/horror.jpg')";
+    function switchBackgroundImage(spider, image, flipper) {
+        document.body.style.backgroundImage = `url('image/${image}.jpg')`;
         document.body.style.backgroundSize = "unset";
-        spider.style.transform = "scaleX(1)";
+        if (flipper % 2 == 0) {
+            spider.style.transform = "scaleX(1)";
+        } else {
+            spider.style.transform = "scaleX(-1)";
+        }
         spider.style.transition = "0.3s";
-    };
+    }
 
     function bringTheMelt(knight, rotations, rotateval) {
         knight.style.transform = `rotate(${rotateval}deg)`;

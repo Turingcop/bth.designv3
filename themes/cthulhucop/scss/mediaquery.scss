@@ -15,13 +15,18 @@
 
     .title,
     .logo {
-        padding: 2em 1.5em 2em 0;
+        margin-top: 1em;
+        padding: 0;
         float: unset;
         width: unset;
     }
 
     .logo {
-        height: 8.8em;
+        height: 10.8em;
+    }
+
+    .title {
+        margin-bottom: 1em;
     }
 
     .nav {
@@ -86,5 +91,21 @@
     .image.float-right {
         float: none;
         margin: 0 auto;
+    }
+
+    .kmom-grid,
+    .report-grid {
+        grid-template-columns: 100%;
+    }
+
+    .kmom-grid ul {
+        display: none;
+    }
+
+    .kmom-grid h1,
+    .kmom-grid p,
+    .report-grid h1,
+    .kmom-box.project {
+        grid-column: 1;
     }
 }

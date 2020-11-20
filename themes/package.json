@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map --watch",
+    "watch": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed --watch",
     "style": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map",
     "style-min": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed"
   },
