@@ -1,10 +1,15 @@
 ---
 Title: Färganalys
 Description: Part 1
+Template: kmom
 ---
 
 Webbplatsers färgschema
 =======================
+
+* [Färganalys](01_colors)
+
+### Syfte
 
 Den här rapporten syftar till att göra en kort analys över tre olika webbplatsers respektive färgschema. Det är en deluppgift i kursmoment 4 i kursen design på Blekinge Tekniska Högskola, höstterminen 2020.
 
@@ -16,7 +21,7 @@ De tre webbplatserna jag har valt är <a href="https://jacobinmag.com/">Jacobin 
 
 I det är arbetet använder jag insticksmodulen Colorzilla i min webbläsare för att ta fram hexadecimala färgkoder på webbplatserna jag undersöker. För att analysera dem använder jag <a href="https://color.adobe.com/create/color-wheel">Adobe Color.</a>
 
-Jag har valt att kategoriskt inte räkna vitt som en del av varje färgschema, även om åtminstone två av dem använder vitt på ett sätt som säkerligen skulle kunna argumenteras för gör det till en väsentlig del av färgschemat. Eftersom det dock också används som ren bakgrundsfärg i artiklarna har jag valt bort det för att få någon typ av konsekvent metod när det kommer till att plocka fram vad som är varje webbplats distinkta schema.
+Jag har valt att kategoriskt inte räkna vitt som en del av varje färgschema, även om åtminstone två av dem använder vitt på ett sätt som säkerligen skulle kunna argumenteras för gör det till en väsentlig del av färgschemat. Eftersom det dock också används som ren bakgrundsfärg i samtliga sidors artiklar har jag valt bort det för att få någon typ av konsekvent metod när det kommer till att plocka fram vad som är varje webbplats distinkta schema.
 
 ### Jacobin Magazine
 
@@ -31,14 +36,14 @@ Jag har valt att kategoriskt inte räkna vitt som en del av varje färgschema, �
 
 Jacobin Magazine är ett magasin som finns på både nätet och i tryckt form med socialistisk, progressiv och generellt vänsterbetonad politisk profil.
 
-De använder ett förhållandevis enkelt färgschema och den klart dominerande färgen är, föga förvånande rött. Som huvudsaklig komplementfärg använd gult och längre ner på startsidan lyfter de t ex in material från magasinet Catalyst i ljusblått, vilket som helhet ger ett triadiskt färgschema där rött dominerar. Bilden av ett nästintill perfekt triadiskt schema kompliceras dock något av att de också på en framträdande plats använder mörkgrått i en banner precis under logotypen. Den får nog betraktas som accentfärg här och ger, som enda mörkare fält, viss tyngd åt uppmaningen att teckna en prenumeration.
+De använder ett förhållandevis enkelt färgschema och den klart dominerande färgen är, föga förvånande rött. Som huvudsaklig komplementfärg använd gult och längre ner på startsidan lyfter de t ex in material från magasinet Catalyst i ljusblått, vilket som helhet ger ett triadiskt färgschema, till på köpet det mest klassiska, där rött dominerar. Bilden av ett nästintill perfekt triadiskt schema kompliceras dock något av att de också på åtminstone en framträdande plats använder mörkgrått i en banner precis under logotypen. Den kan eventuellt med lite god vilja betraktas som accentfärg och här och ger, som enda lite större mörkare fält, viss tyngd åt uppmaningen att teckna en prenumeration. Dock vore det antagligen mer korrekt att kalla den blå som används genomgående men väldigt sparsamt för sidans accentfärg.
 
 I rubriker och brödtext används ett serif-typsnitt. I ingress och i logotyp används sans serif. Mitt samlade intryck är att det känns modernt och lättläst.
 
 Jacobin Magazine förmedlar tydligt sin politiska tillhörighet genom att låta sidan domineras av rött och gult. Samtidigt använts ljusblått på ett sätt som bryter mot traditionell vänsterestetik på ett något avväpnande och lite mer lekfullt sätt. Min tolkning är att detta stämmer väl överens med den profil de sökt: ett energiskt färgschema med tydliga ideologiska signaler som ändå inte skrämmer bort nya, nyfikna läsare.
 
 ![Jacobin snapshot](../assets/img/jacobin.png)
-Skärmdump av Jacobins Magazine där det triadiska färgschemat syns tydligt.
+Skärmdump av Jacobins Magazine där det triadiska färgschemat syns tydligt. Gult och blått, här inom ramarna för en bild, återfinns på andra ställen på sidan men syns sällan samtidigt.
 
 ### The American Mind
 
@@ -75,25 +80,25 @@ Jacobite Magazine är ytterligare en politisk publikation men betydligt mer svå
 
 Jacobite använder också det klart mest dämpade och mörkaste färgschemat av de tre. Den dominerande färgen är nästan svart med accentfärger i väldigt dämpade turkosa nyanser. Jag tycker att det är svårt att exakt kategorisera detta färgschema eftersom färgerna överlag är få och dämpade, de bildar ett kluster mot mitten av Adobe Colors färghjul. Monokromt eller möjligtvis analogt är antagligen så nära vi kommer.
 
-Jag tror att profilen de söker är medvetet relativt ambivalent och otydlig, till skillnad från de andra två i den här rapporten. Meningen som jag tolkar den är att skapa ett lugnt men samtidigt något gåtfullt uttryck som uppmuntrar besökaren till reflektion och sinnesrörelse snarare än att förmedla energi och fysisk rörelse. Detta skulle åtminstone spegla mycket av innehållet på sidan och därmed tror jag att de har lyckats med sin ambition.
+Jag tror att profilen de söker är medvetet ambivalent och lite otydlig, till skillnad från de andra två i den här rapporten som har en väldigt uttrycksfull profil. Meningen som jag tolkar den är att skapa ett lugnt men samtidigt något gåtfullt uttryck som uppmuntrar besökaren till reflektion och sinnesrörelse snarare än att förmedla utåtriktad energi som t ex Jacobin Magazine. Detta skulle åtminstone spegla mycket av innehållet.
 
-Liksom i de övriga två används ett typsnitt utan seriffer i rubriker, här dock ett desto mer intetsägande sådant i genomgående versaler, och ett typsnitt med seriffer brödtext. Detta är uppenbarligen en populär stilfigur och jag kan förstå att ett typsnitt med seriffer är mer vilsamt för ögonen när det kommer till längre texter. 
+Liksom i de övriga två används ett typsnitt utan seriffer i rubriker, här dock ett desto mer intetsägande sådant i genomgående versaler, och ett typsnitt med seriffer brödtext. Detta är uppenbarligen en populär stilfigur och personligen kan jag förstå att ett typsnitt med seriffer är mer vilsamt för ögonen när det kommer till längre texter. 
 
 ![Jacobite Magazine snapshot](../assets/img/jacobite.png)
 Skärmdump av Jacobite Magazine. Färgschemat är mörkt och dämpat och kompletteras ofta av bildsättning gråskala.
 
 ### Diskussion
 
-Färglära och färgteori är en sak och praktik, som så ofta är fallet, delvis något annat. I en slags platonisk idévärld kan allting delas in i perfekta kategorier med tydliga ramar, men det är nödvändigtvis inte lika lätt i sinnevärlden (alltså realiteten). Som jag ser det har ingen av webbplatserna jag analyserat hållit sig inom ramarna för ett eller annat färgschema utan tagit sina egna stilmässiga friheter. 
+Färglära och färgteori är en sak och praktik, som så ofta är fallet, delvis något annat. I en slags platonisk idévärld kan allting delas in i perfekta kategorier med tydliga ramar, men det är nödvändigtvis inte lika lätt eller ens önskvärt i sinnevärlden (alltså realiteten). Som jag ser det har ingen av webbplatserna jag analyserat hållit sig helt inom ramarna för ett eller annat färgschema utan tagit sina egna stilmässiga friheter. 
 
-Om jag t ex använder Adobe Color och försöker generera ett färgschema utifrån Jacobin Magazines dominerande röda (#ff0000) så matchar inte den gula eller den blå perfekt med de gula och blå som faktiskt används på sidan. Detta oavsett vilket färgschema jag väljer och om jag genererar det i RGB eller CMYK. 
+Av de sidor jag undersökt så är det Jacobin Magazine som kommer närmst att hålla sig till ett strikt triadiskt färgschema. Ändå har jag haft svårt att hitta en perfekt matchning mellan de nyanser av gult, blått och rött som används när jag analyserar dem genom att t ex generera ett färgschema i Adobe Color. Detta kan förstås till stor del bero på att Adobe Color är ett relativt enkelt verktyg med smal funktionalitet. 
 
-The American Mind har ett färgschema som tydligt domineras av blått och idévärldsligt vill jag gärna kategorisera det som monokromt. Dock är det uppenbart att syftet också är att reflektera den amerikanska flaggan. Det är ett effektivt stilgrepp som dock är mer svårkategoriserat utifrån mer statiska, färgteoretiska modeller.
+The American Mind har ett färgschema som tydligt domineras av blått och teoretiskt vill jag gärna kategorisera det som monokromt. Dock är det uppenbart att syftet också är att reflektera den amerikanska flaggan. Det är ett effektivt stilgrepp som dock är mer svårkategoriserat utifrån mer statiska, färgteoretiska modeller. Rött används förvisso främst som en accentfärg men spelar ändå en avgörande och relativt framträdande roll i totaliteten. 
 
-Jacobite Magazine använder väldigt få färger överlag och med relativt låg mättnad. Helheten blir väldigt dämpad och återhållen, vilket gör det desto svårare att på ett tydligt sätt hitta vilken typ av färgschema som används. 
+Jacobite Magazine använder väldigt få färger överlag och dessutom med relativt låg mättnad. Helheten blir väldigt dämpad och återhållen, en slags gråskala med en urvattnad turkos eller grågrön som accentfärg. De två dominerande färgerna är i princip svart och vitt, om än något ljusare respektive mörkare än #000 #fff. 
 
-Ändå tycker jag att samtliga sidor lyckats väl i både vad jag uppfattar som deras estetiska ambition och med att i sin grafiska profil också spegla sin innehållsmässiga profil, samtidigt som jag tycker att de alla tre är stilmässigt ganska trevliga. Jacobites sida ser möjligtvis lite tråkig ut, men den är på inget sätt direkt jobbig för ögonen eller ful. 
+Ändå tycker jag att samtliga sidor lyckats väl i både vad jag uppfattar som deras estetiska ambition och med att i sin grafiska profil också spegla sin innehållsmässiga profil, samtidigt som jag tycker att de alla tre är stilmässigt ganska trevliga. Jacobites sida ser möjligtvis lite tråkig eller intetsägande ut, men den är inte på något sätt direkt ansträngande för ögonen. 
 
-En tydlig slutsats utifrån detta är att färglära och färgteoretiska modeller är hjälpmedel men inte en tvångströja. För någon med en tydlig designmässig vision eller t ex en slags estetisk/visuell intuition är det fullt möjligt att tänja på de ramar som de erbjuder, utan att produkten nödvändigtvis ser direkt anskrämlig ut. Min egen bild är dessutom att om alla färgsatta produkter var perfekta, fyrkantiga klossar som passade in i färgteoretiska, fyrkantiga hål så skulle det mesta snart se ganska tråkigt och kanske nästan monotont ut, oavsett hur många olika färger som används och hur kraftigt olika färgscheman skulle skilja sig mellan olika webbplatser. Om en slags idévärldslig perfekt harmoni är en trygg utgångspunkt så tror jag att en visuellt intuitiv disharmoni, om rätt och försiktigt använd, många gånger kan resultera i en mer intressant och suggestiv slutprodukt. Vad jag har kunnat se är ingen av de webbplatser jag analyserat teoretiskt perfekt harmoniska, men ingenting skriker heller disharmoni i dem.
+En tydlig slutsats för mig utifrån detta är att färglära och färgteoretiska modeller är hjälpmedel men inte tvångströjor. För någon med en tydlig designmässig vision eller t ex en slags estetisk/visuell intuition är det fullt möjligt att tänja på de ramar som de erbjuder, utan att produkten nödvändigtvis ser direkt anskrämlig ut. Min egen bild är dessutom att om alla färgsatta produkter var perfekta, fyrkantiga klossar som passade in i färgteoretiska, fyrkantiga hål så skulle det mesta snart se ganska tråkigt och kanske nästan monotont ut, oavsett hur många olika färger som används och hur kraftigt olika färgscheman skulle skilja sig mellan olika webbplatser. Om en slags idévärldslig perfekt harmoni är en trygg utgångspunkt så tror jag att en visuellt intuitiv disharmoni, om försiktigt och kanske framförallt medvetet utnyttjad, många gånger kan resultera i en mer intressant och suggestiv slutprodukt. Med risk för att avslutningsvis uttrycka mig extremt abstrakt så tror jag att det kan skapa mer spänst eller djup i färgsättningen.
 
 Simon Evertsson
