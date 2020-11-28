@@ -1,17 +1,17 @@
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #171717;
-    color: #c0c0c0;
+    background: $foot-red;
+    color: $foot-print;
     margin-top: 20px;
 }
 
 .footer a {
-    color: #ddd;
+    color: $foot-print-fade;
 }
 
 .footer a:hover {
-    color: #fff;
+    color: $foot-print;
 }
 
 .footer p {

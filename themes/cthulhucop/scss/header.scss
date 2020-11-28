@@ -13,7 +13,7 @@
 
 .title * {
     margin: 0;
-    color: #111;
+    color: $dark-gray;
 }
 
 .title h1 {
@@ -63,19 +63,18 @@
 
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $dark-gray;
 }
 
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $print-red;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
-    text-decoration: underline;
+    color: $print-red;
 }
 
 .nav-toggle {

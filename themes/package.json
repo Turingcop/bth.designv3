@@ -6,9 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map",
-    "style-min": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass cthulhucop/scss/style.scss:cthulhucop/css/style.css cthulhucop/scss/style-dark.scss:cthulhucop/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass cthulhucop/scss/style.scss:cthulhucop/css/style.min.css cthulhucop/scss/style-dark.scss:cthulhucop/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass cthulhucop/scss/style-dark.scss cthulhucop/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass cthulhucop/scss/style-dark.scss cthulhucop/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass cthulhucop/scss/style.scss cthulhucop/css/style.css --no-source-map",
+    "style-light-min": "sass cthulhucop/scss/style.scss cthulhucop/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

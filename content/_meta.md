@@ -5,6 +5,10 @@ Social:
     - title: Länk till sidans github repo.
       url: https://github.com/Turingcop/bth.designv3.git
       icon: fab fa-github
-icons:
-  spider: fas fa-spider
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

@@ -1,6 +1,6 @@
 ---
-Title: Kmom01
-Description: Part 1
+Title: Kmom02
+Description: Part 2
 Template: kmom
 ---
 
