@@ -18,7 +18,7 @@
     width: 100%;
     text-align: center;
     height: 14em;
-    border: 1px solid $print-red-fade;
+    border: 1px solid $foot-print-fade;
     display: grid;
     align-items: center;
     grid-template-rows: 1fr 1fr 1fr;
@@ -38,18 +38,18 @@
 }
 
 .kmom-box h4 {
-    color: $print-red-fade;
+    color: $foot-print-fade;
     margin: 0;
 }
 
 .kmom-box a {
     font-size: 1.6em;
-    color: $print-red-fade;
+    color: $foot-print-fade;
     margin: 0;
 }
 
 .kmom-box i {
-    color: $print-red-fade;
+    color: $foot-print-fade;
 }
 
 .kmom-box.project {
