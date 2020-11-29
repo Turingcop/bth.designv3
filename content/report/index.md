@@ -27,6 +27,8 @@ Redovisning
 
 <div class="kmom-box">
 <div><h4>Kmom04</h4></div>
+<p>Färg.</p>
+<a href="report/kmom04"><i class="fas fa-align-justify"><i></a>
 </div>
 
 <div class="kmom-box">
