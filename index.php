@@ -33,7 +33,7 @@ $pico->setConfig(array(
     'session' => $_SESSION
 ));
 
-if ($_GET["action"] == "theme") {
+if (isset($_GET["action"]) && $_GET["action"] == "theme") {
     $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null;
 
     if ($previousValue == "dark") {
@@ -47,7 +47,7 @@ if ($_GET["action"] == "theme") {
     header("Location: $url");
 }
 
-if ($_GET["action"] == "session_destroy") {
+if (isset($_GET["action"]) && $_GET["action"] == "session_destroy") {
     session_destroy();
     $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
     $url = preg_replace("/index.php\//", "", $url);
