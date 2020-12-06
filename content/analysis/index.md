@@ -15,7 +15,8 @@ Analys
 
 <div class="kmom-box">
 <div><h4>Kmom02</h4></div>
-
+<p>Laddningstider.</p>
+<a href="analysis/02_load"><i class="fas fa-align-justify"></i></a>
 </div>
 
 <div class="kmom-box">

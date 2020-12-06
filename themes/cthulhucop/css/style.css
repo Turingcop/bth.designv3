@@ -6488,10 +6488,6 @@ template {
   transition: height 0.5s ease-in !important;
 }
 
-img {
-  max-width: 100%;
-}
-
 html,
 body {
   height: 100%;
@@ -6508,10 +6504,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  background-color: white;
+  background-color: #fff;
   background-size: contain;
   width: 60%;
   margin: 0 auto;
+  color: #252525;
 }
 
 .main {
@@ -6545,7 +6542,7 @@ body {
 .underscore {
   padding-top: 3em;
   margin-top: 3em;
-  border-top: 1px solid #bb190ac7;
+  border-top: 1px solid #c65045;
   text-align: center;
 }
 
@@ -6553,7 +6550,7 @@ body {
 .underscore a i {
   font-size: 3em;
   margin-bottom: 1em;
-  color: #bb190ac7;
+  color: #c65045;
 }
 
 .underscore p {
@@ -6566,70 +6563,19 @@ body {
 }
 
 .underscore p::first-letter {
-  color: #bb180a;
+  color: #bb170a;
   font-weight: bolder;
-}
-
-.report-grid {
-  display: grid;
-  gap: 1em 1em;
-  grid-template-rows: min-content;
-}
-
-.kmom-box {
-  width: 100%;
-  text-align: center;
-}
-
-.kmom-box h4 {
-  background-color: #bb190ac7;
-  width: 100%;
-  padding: 10px 0;
-  color: #fff;
-}
-
-.report-grid h1 {
-  grid-column: span 3;
-  justify-self: center;
-  align-self: center;
-  max-width: 100%;
-}
-
-.kmom-box.project {
-  grid-column: span 3;
-}
-
-.kmom-grid {
-  display: grid;
-  grid-template-columns: calc(100%/6 - 0.5em) calc(100%/6 * 5 - 0.5em);
-  grid-column-gap: 1em;
-}
-
-.kmom-grid h1 {
-  grid-column: 2;
-  text-align: center;
-}
-
-.kmom-grid p {
-  grid-column: 2;
-}
-
-.kmom-grid ul {
-  grid-column: 1;
-  grid-row: 2/span 2;
-  list-style: none;
-  padding-left: 0;
 }
 
 /*** BASIC LAYOUT: FOOTER ***/
 .footer {
-  background: #171717;
-  color: #c0c0c0;
+  background: #202020e5;
+  color: #fff;
   margin-top: 20px;
 }
 
 .footer a {
-  color: #ddd;
+  color: #c65045;
 }
 
 .footer a:hover {
@@ -6877,11 +6823,11 @@ button::-moz-focus-inner {
 
 .title * {
   margin: 0;
-  color: #111;
+  color: #252525;
 }
 
 .title h1 {
-  color: #bb180a;
+  color: #bb170a;
 }
 
 .title p {
@@ -6927,19 +6873,18 @@ button::-moz-focus-inner {
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #252525;
 }
 
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #3b440d;
+  color: #bb170a;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-  color: #3b440d;
-  text-decoration: underline;
+  color: #bb170a;
 }
 
 .nav-toggle {
@@ -6955,8 +6900,9 @@ button::-moz-focus-inner {
 
 .flash-img {
   width: 100%;
-  height: 300px;
+  height: 205px;
   object-fit: cover;
+  object-position: bottom;
 }
 
 /*** TYPOGRAPHY ***/
@@ -6971,7 +6917,6 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #444;
 }
 
 p,
@@ -7000,7 +6945,7 @@ fieldset {
 }
 
 a {
-  color: #2eae9b;
+  color: #c65045;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
@@ -7019,7 +6964,7 @@ h6 {
   font-weight: bold;
   font-family: "Arvo";
   font-weight: bold;
-  color: #bb180a;
+  color: #bb170a;
 }
 
 h1 {
@@ -7115,6 +7060,94 @@ abbr {
   width: 100%;
 }
 
+.report-grid {
+  margin-top: 2em;
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content;
+}
+
+.report-grid h1 {
+  grid-column: span 3;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  margin: 0 !important;
+}
+
+.kmom-box {
+  width: 100%;
+  text-align: center;
+  height: 14em;
+  border: 1px solid #c65045;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  overflow: hidden;
+}
+
+.kmom-box p {
+  text-align: center;
+  margin: 0;
+}
+
+.kmom-box div {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  background-color: #c65045;
+}
+
+.kmom-box h4 {
+  color: #fff;
+  margin: 0;
+}
+
+.kmom-box a {
+  font-size: 1.6em;
+  color: #c65045;
+  margin: 0;
+}
+
+.kmom-box i {
+  color: #c65045;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.kmom-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.kmom-grid h1,
+h2,
+h3,
+table {
+  grid-column: 2;
+  text-align: center;
+}
+
+.kmom-grid p {
+  grid-column: 2;
+}
+
+.kmom-grid ul {
+  grid-column: 1;
+  grid-row: 2/span 2;
+  list-style: none;
+  padding-left: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
 @media (max-width: 767px) {
   .main {
@@ -7131,13 +7164,18 @@ abbr {
 
   .title,
 .logo {
-    padding: 2em 1.5em 2em 0;
+    margin-top: 1em;
+    padding: 0;
     float: unset;
     width: unset;
   }
 
   .logo {
-    height: 8.8em;
+    height: 10.8em;
+  }
+
+  .title {
+    margin-bottom: 1em;
   }
 
   .nav {

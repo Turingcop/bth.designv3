@@ -1,10 +1,6 @@
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
 
 @media (max-width: 767px) {
-    .main {
-        padding: 2em 0 1em;
-    }
-
     .wrap-cont {
         width: 90%;    
     }
@@ -94,7 +90,8 @@
     }
 
     .kmom-grid,
-    .report-grid {
+    .report-grid,
+    .gallery {
         grid-template-columns: 100%;
     }
 

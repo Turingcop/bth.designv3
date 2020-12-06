@@ -28,11 +28,13 @@ Redovisning
 <div class="kmom-box">
 <div><h4>Kmom04</h4></div>
 <p>Färg.</p>
-<a href="report/kmom04"><i class="fas fa-align-justify"><i></a>
+<a href="report/kmom04"><i class="fas fa-align-justify"></i></a>
 </div>
 
 <div class="kmom-box">
 <div><h4>Kmom05</h4></div>
+<p>Bilder.</p>
+<a href="report/kmom05"><i class="fas fa-align-justify"></i></a>
 </div>
 
 <div class="kmom-box">
