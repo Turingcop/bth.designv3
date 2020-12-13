@@ -15,10 +15,7 @@
         padding: 0;
         float: unset;
         width: unset;
-    }
-
-    .logo {
-        height: 10.8em;
+        height: unset;
     }
 
     .title {
@@ -106,5 +103,9 @@
     .kmom-grid table,
     .kmom-box.project {
         grid-column: 1;
+    }
+
+    .footer p {
+    text-align: left;
     }
 }

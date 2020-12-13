@@ -8,22 +8,24 @@ Webbplatsers färgschema
 =======================
 
 * [Färganalys](01_colors)
+* [Laddningstid](02_load)
+* [Designprinciper](03_design_principles)
 
-### Syfte
+## Syfte
 
 Den här rapporten syftar till att göra en kort analys över tre olika webbplatsers respektive färgschema. Det är en deluppgift i kursmoment 4 i kursen design på Blekinge Tekniska Högskola, höstterminen 2020.
 
-### Urval
+## Urval
 
 De tre webbplatserna jag har valt är <a href="https://jacobinmag.com/">Jacobin Magazine</a>, <a href="https://jacobitemag.com/">Jacobite Magazine</a> och <a href="https://americanmind.org/">American Mind</a>. Urvalet är baserat på vilka sidor jag själv relativt ofta kommer tillbaka till. Främst för deras skrivna innehåll. Färgsättningen för alla tre skulle jag beskriva som relativt försiktig för samtliga, vilket på sätt och vis gör uppgiften att analysera dem mer utmanande. Sidornas huvudsakliga syfte är att presentera politiska texter, dock med vitt skilda ideologiska utgångspunkter varför profilen de eftersöker bör skilja sig drastiskt. Jag menar att man kan anta att samtliga har en ambition att på något sätt markera sin politiska tillhörighet på ett distinkt sätt utan att riskera att distrahera besökare från budskapet som förmedlas i ibland långa och ibland relativt komplexa artiklar och essäer.
 
-### Metod
+## Metod
 
 I det är arbetet använder jag insticksmodulen Colorzilla i min webbläsare för att ta fram hexadecimala färgkoder på webbplatserna jag undersöker. För att analysera dem använder jag <a href="https://color.adobe.com/create/color-wheel">Adobe Color.</a>
 
 Jag har valt att kategoriskt inte räkna vitt som en del av varje färgschema, även om åtminstone två av dem använder vitt på ett sätt som säkerligen skulle kunna argumenteras för gör det till en väsentlig del av färgschemat. Eftersom det dock också används som ren bakgrundsfärg i samtliga sidors artiklar och, vad jag förstår, i egentlig mening inte är faktiska färger, så har jag valt bort det för att få någon typ av konsekvent metod när det kommer till att plocka fram vad som är varje webbplats distinkta schema.
 
-### Jacobin Magazine
+## Jacobin Magazine
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -45,7 +47,7 @@ Jacobin Magazine förmedlar tydligt sin politiska tillhörighet genom att låta 
 ![Jacobin snapshot](../assets/img/jacobin.png)
 Skärmdump av Jacobins Magazine där det triadiska färgschemat syns tydligt. Gult och blått, här inom ramarna för en bild, återfinns på andra ställen på sidan men syns sällan samtidigt.
 
-### The American Mind
+## The American Mind
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -65,7 +67,7 @@ I rubriker, också här i allmänhet h1, till artiklar används ett sans serif-t
 ![American Mind snapshot](../assets/img/americanmind.png)
 Skärmdump av The American Mind. Djupblått dominerar och förmedlar publikationens ideologiska utgångspunkt.
 
-### Jacobite Magazine
+## Jacobite Magazine
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -87,7 +89,7 @@ Liksom i de övriga två används ett typsnitt utan seriffer i rubriker, här do
 ![Jacobite Magazine snapshot](../assets/img/jacobite.png)
 Skärmdump av Jacobite Magazine. Färgschemat är mörkt och dämpat och kompletteras ofta av bildsättning gråskala.
 
-### Diskussion och sammanfattning
+## Diskussion och sammanfattning
 
 Färglära och färgteori är en sak och praktik, som så ofta är fallet, delvis något annat. I en slags platonisk idévärld kan allting delas in i perfekta kategorier med tydliga ramar, men det är nödvändigtvis inte lika lätt eller ens önskvärt i sinnevärlden (alltså realiteten). Som jag ser det har ingen av webbplatserna jag analyserat hållit sig helt inom ramarna för ett eller annat färgschema utan tagit sina egna stilmässiga friheter. 
 

@@ -28,5 +28,5 @@ Innan detta kursmoment kände jag i princip inte till något av de verktyg vi ha
 Nedan: Slavoj Zizek förklarar hela världen på tre sekunder. Mycket nöje.
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/R8-hY4g0dU0" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Zizek explains the world" src="https://www.youtube.com/embed/R8-hY4g0dU0" frameborder="0" allowfullscreen></iframe>
 </div>

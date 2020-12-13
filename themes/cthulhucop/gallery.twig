@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,14 +28,14 @@
         <div class="wrap-cont">
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
-                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                <div class="logo">
+                    <a href="{{ "index"|link }}" aria-label="home">
+                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}&w=423&h=423" alt="" width="141" height="141">
                     </a>
                 </div>
             {% endif %}
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/cthulhu.jpg?sc=banner1&a=40,0,0,0">
+                <img class="flash-img" alt="cthulhuprint" src="{{ base_url }}/image/cthulhu.jpg&width=751" width="100%" height="100%">
             </div>
         </div>
     </div>
@@ -68,9 +68,9 @@
                 {% for image in meta.images %}
                 <a href="{{ assets_url }}/img/gallery/{{ image.url }}" target="_blank">
             <picture>
-                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1">
-                <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1&w=667">
-                <img src="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1&w=375" class="max-width" alt="{{ image.alt }}">
+                <source media="(min-width: 832px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1&w=185" width="100%" height="100%">
+                <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1&w=567" width="100" height="100%">
+                <img src="{{ base_url }}/image/gallery/{{ image.url }}?crop-to-fit&aspect-ratio=!1:1&w=828" class="max-width" alt="{{ image.alt }}" width="100%" height="100%">
             </picture>
         </a>
             {% endfor %}

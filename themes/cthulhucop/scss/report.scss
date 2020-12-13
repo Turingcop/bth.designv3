@@ -35,12 +35,14 @@
     height: 100%;
     width: 100%;
     align-content: center;
+    text-align: center;
     background-color: $print-red-fade;
 }
 
-.kmom-box h4 {
+.kmom-box h2 {
     color: $onred;
     margin: 0;
+    font-size: 1.1rem;
 }
 
 .kmom-box a {
@@ -60,14 +62,18 @@
 .kmom-grid {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    column-gap: 5px;
 }
 
 .kmom-grid h1,
-h2,
-h3,
-table {
+.kmom-grid h2,
+.kmom-grid table {
     grid-column: 2;
     text-align: center;
+}
+
+.kmom-grid h2 {
+    font-size: 1.4rem;
 }
 
 .kmom-grid p {
