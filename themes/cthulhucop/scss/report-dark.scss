@@ -1,7 +1,7 @@
 .report-grid {
-    margin-top: 2em;
+    margin-top: 2rem;
     display: grid;
-    gap: 2em;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content;
 }
@@ -28,6 +28,7 @@
 .kmom-box p {
     text-align: center;
     margin: 0;
+    padding: 1rem;
 }
 
 .kmom-box div {
@@ -60,7 +61,7 @@
 .kmom-grid {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    column-gap: 5px;
+    column-gap: 1rem;
 }
 
 .kmom-grid h1,

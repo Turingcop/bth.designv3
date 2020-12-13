@@ -39,6 +39,8 @@ Redovisning
 
 <div class="kmom-box">
 <div><h2>Kmom06</h2></div>
+<p>Tillgänglighet & prestanda.</p>
+<a href="report/kmom04" aria-label="kmom06"><i class="fas fa-align-justify"></i></a>
 </div>
 
 <div class="kmom-box project">

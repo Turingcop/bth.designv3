@@ -82,16 +82,16 @@ body {
 }
 
 .underscore {
-    padding-top: 3em;
-    margin-top: 3em;
+    padding-top: 3rem;
+    margin-top: 3rem;
     border-top: 1px solid $print-red-fade;
     text-align: center;
 }
 
 .underscore i,
 .underscore a i {
-    font-size: 3em;
-    margin-bottom: 1em;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     color: $print-red-fade;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 .underscore p:last-child {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 .underscore p::first-letter {
