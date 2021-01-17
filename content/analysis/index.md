@@ -24,3 +24,15 @@ Analys
 <p>Designprinciper.</p>
 <a href="analysis/03_design_principles" aria-label="design principles analysis"><i class="fas fa-align-justify"></i></a>
 </div>
+
+<div class="kmom-box">
+<div><h2>Kmom10</h2></div>
+<p>Aktuell webbplatsdesign</p>
+<a href="analysis/10_webbplatsdesign" aria-label="webbplatsdesign"><i class="fas fa-align-justify"></i></a>
+</div>
+
+<div class="kmom-box">
+<div><h2>Kmom10</h2></div>
+<p>Design och webbplatser</p>
+<a href="analysis/11_design-och-webbplatser" aria-label="webbplatsdesign"><i class="fas fa-align-justify"></i></a>
+</div>
