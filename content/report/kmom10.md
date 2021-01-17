@@ -15,24 +15,6 @@ Kursmoment 10
 * [kmom06](kmom06)
 * [kmom10](kmom10)
 
-
-
-
-
-    På din redovisningssida, skriv följande:
-
-    1.1 För varje krav du implementerat, dvs 1-6, skriver du ett textstycke om ca 5-10 meningar där du beskriver vad du gjort och hur du tänkt. Poängsättningen tar sin start i din text så se till att skriva väl för att undvika poängavdrag. Missar du att skriva/dokumentera din lösning så blir det 0 poäng. Du kan inte komplettera en inlämning för att få högre betyg.
-
-    1.2 Skriv ett allmänt stycke om hur projektet gick att genomföra. Problem/lösningar/strul/enkelt/svårt/snabbt/lång tid, etc. Var projektet lätt eller svårt? Tog det lång tid? Vad var svårt och vad gick lätt? Var det ett bra och rimligt projekt för denna kursen?
-
-    1.3 Avsluta med ett sista stycke med dina tankar om kursen och vad du anser om materialet och handledningen (ca 5-10 meningar). Ge feedback till lärarna och förslå eventuella förbättringsförslag till kommande kurstillfällen. Är du nöjd/missnöjd? Kommer du att rekommendera kursen till dina vänner/kollegor? På en skala 1-10, vilket betyg ger du kursen?
-
-    Tagga din me/portfolio i v10.0.0 och publicera på GitHub.
-
-    Ta en kopia av texten på din redovisningssida och kopiera in den på läroplattformen i redovisningen. Glöm inte länka till din portfolio-sida och projektet.
-
-    Publicera på studentservern.
-
 Då var tillslut också projektet i hamn och jag har försökt implementera samtliga krav med varierande framgång. 
 
 Det första var förstås att skapa själva webbplatsen och jag började med att göra en ny picoinstallation att utgå ifrån. Jag ville göra något som drastiskt skulle skilja sig från portfolion och det kändes rimligt att börja med ett blankt papper. Till skillnad från med portfolion tog jag tidigt bort hela dbwebb-temat, med undantag för twig-filen som på grund av min ringa erfarenhet av just twig kändes enklare att bara modifiera efter behov, och gjorde om all CSS från grunden. Med portfolion var jag betydligt mindre försiktig och jag ville gärna försöka ta ut svängarna lite mer den här gången.
