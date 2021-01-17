@@ -45,4 +45,6 @@ Redovisning
 
 <div class="kmom-box project">
 <div><h2>Kmom10</h2></div>
+<p>Projekt</p>
+<a href="report/kmom10" aria-label="kmom06"><i class="fas fa-align-justify"></i></a>
 </div>
